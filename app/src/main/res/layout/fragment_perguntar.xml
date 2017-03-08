@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:windowSoftInputMode="adjustPan"
+    tools:context="br.com.aski.aski.home.PerguntarFragment">
+
+    <Spinner
+        android:background="@drawable/shape_spinner"
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        app:civ_border="true"
+        app:civ_border_width="0.5dp"
+        android:id="@+id/foto_perfil_home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/perfil"
+        android:layout_alignParentRight="true" />
+
+
+    <TextView
+        android:id="@+id/tv_pontos_home"
+        android:textStyle="bold"
+        android:layout_below="@id/foto_perfil_home"
+        android:textSize="12sp"
+        android:text="120 PONTOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/tv_pontos_home"
+        android:id="@+id/linha"
+        android:background="#E6E6E6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:layout_below="@id/linha"
+        android:id="@+id/edt_qual_a_duvida"
+        android:layout_marginTop="20dp"
+        android:hint="Qual a Dúvida?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#FFF"
+        android:text="PERGUNTAR"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/canto_arredondado"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</RelativeLayout>
