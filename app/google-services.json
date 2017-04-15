@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "295535503642",
+    "firebase_url": "https://aski-c42e4.firebaseio.com",
+    "project_id": "aski-c42e4",
+    "storage_bucket": "aski-c42e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295535503642:android:64cfa33042219afd",
+        "android_client_info": {
+          "package_name": "br.com.aski.aski"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295535503642-sm7p3n21abuu87jl1dvmdpcqk5v9i03p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.aski.aski",
+            "certificate_hash": "8e67f80546e05e3d846a0560d4c8eed4790e63d0"
+          }
+        },
+        {
+          "client_id": "295535503642-qpbcs215gov1tqukgt7ohrk4727cdd23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvGHige78GhmtsMUnMwds_-TTQxvOwZyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295535503642-qpbcs215gov1tqukgt7ohrk4727cdd23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

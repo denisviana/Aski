@@ -6,4 +6,6 @@
     <color name="colorSecundary">#00b7ce</color>
     <color name="bg_tags">#78909C</color>
     <color name="branco">#FFF</color>
+
+    <color name="google_plus">#dd4b39</color>
 </resources>
